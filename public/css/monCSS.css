@@ -1,0 +1,19 @@
+div.principale{
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+}
+div#laCarte {
+
+    margin-top: 2em;
+    height:400px;
+    width: 80%;
+    border: black solid 2px ;
+    box-shadow: 10px 5px lightgray;
+    border-radius: 5px;
+
+}
+
