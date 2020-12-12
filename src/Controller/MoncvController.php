@@ -6,15 +6,15 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class AccueilController extends AbstractController
+class MoncvController extends AbstractController
 {
     /**
-     * @Route("/ouestxav", name="accueil")
+     * @Route("/", name="moncv")
      */
     public function index(): Response
     {
-        return $this->render('accueil/index.html.twig', [
-            'controller_name' => 'AccueilController',
+        return $this->render('moncv/index.html.twig', [
+            'controller_name' => 'MoncvController',
         ]);
     }
 }

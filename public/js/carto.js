@@ -25,12 +25,27 @@ function initMap() {
     macarte = L.map('laCarte').setView([lat, lon], 15);
 
     // Leaflet ne récupère pas les cartes (tiles) sur un serveur par défaut. Nous devons lui préciser où nous souhaitons les récupérer. Ici, openstreetmap.fr
-    L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+   L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
         // Il est toujours bien de laisser le lien vers la source des données
         attribution: 'données © <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="//openstreetmap.fr">OSM France</a>',
         minZoom: 1,
         maxZoom: 20
     }).addTo(macarte);
+
+    var osm = L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"),
+        mqi = L.tileLayer("http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.png", {subdomains: ['otile1','otile2','otile3','otile4']});
+
+    var baseMaps = {
+        "OpenStreetMap": osm,
+        "MapQuestImagery": mqi
+    };
+
+    var overlays =  {//add any overlays here
+
+    };
+
+    L.control.layers(baseMaps,overlays, {position: 'bottomleft'}).addTo(macarte);
+
     marker = L.marker([lat, lon]).addTo(macarte);
     marker.bindTooltip("Je cherche la dernière position").openTooltip();
     laDivInfo.innerText = "En attente de la réponse du serveur"
@@ -41,7 +56,7 @@ function actualisePosition() {
     if (idInt ===0) {
         return;}
 
-    let url = "http://api.xav/api/parcours/" + idInt + "/positions?order%5BdatePosition%5D=desc&page=1&itemsPerPage=1";
+    let url = "http://www.api.xav/api/parcours/" + idInt + "/positions?order%5BdatePosition%5D=desc&page=1&itemsPerPage=1";
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
 
@@ -95,7 +110,7 @@ function actualiseDernierParcour() {
             }
         }
     }
-    xmlhttp.open("GET", "http://api.xav/api/parcours?order%5Bid%5D=desc&page=1&itemsPerPage=1", true);
+    xmlhttp.open("GET", "http://www.api.xav/api/parcours?order%5Bid%5D=desc&page=1&itemsPerPage=1", true);
     xmlhttp.send(null);
 }
 window.onload = function() {
