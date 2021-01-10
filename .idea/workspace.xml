@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00cf413a-db42-4e0f-bd5f-0c1107b2c81a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/MoncvController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/moncv/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/apicaptcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/captcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tile-wide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/valid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/CapchaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/CgvController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/capcha/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cgv/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/carto.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/carto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AccueilController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccueilController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/moncv/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/moncv/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +27,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,7 +49,9 @@
       </map>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$/public" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1:8000/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
       <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
@@ -158,7 +174,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../apiposition" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../scriptOVH" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -167,7 +183,18 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="127.0.0.1:8000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://127.0.0.1:8000">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.127.0.0.1:8000" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -182,7 +209,10 @@
       <workItem from="1605527861164" duration="11175000" />
       <workItem from="1606153319011" duration="68000" />
       <workItem from="1607791249490" duration="208000" />
-      <workItem from="1607791485381" duration="824000" />
+      <workItem from="1607791485381" duration="2481000" />
+      <workItem from="1607891715628" duration="3045000" />
+      <workItem from="1608137292715" duration="2553000" />
+      <workItem from="1609705296954" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="Des pitis changements">
       <created>1605734413529</created>
@@ -205,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605735574636</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Carto refaire. Ajout data CV">
+      <created>1607792456296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607792456297</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,25 +255,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Des pitis changements" />
     <MESSAGE value="changement du heigth dans le viewport" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement du heigth dans le viewport" />
+    <MESSAGE value="Carto refaire. Ajout data CV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Carto refaire. Ajout data CV" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="208" y="27" width="939" height="741" key="CommitChangelistDialog2" timestamp="1605735574431">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="208" y="27" width="939" height="741" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1605735574431" />
-    <state x="529" y="256" width="374" height="426" key="FileChooserDialogImpl" timestamp="1606153382849">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="529" y="256" width="374" height="426" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606153382849" />
-    <state x="2109" y="371" width="424" height="491" key="FileChooserDialogImpl/1366.0.1920.1200/0.27.1366.741@1366.0.1920.1200" timestamp="1605453581626" />
-    <state x="278" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1605735577015">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state x="278" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1605735577015" />
-    <state width="300" height="36" key="javadoc.popup.new" timestamp="1605805334642">
-      <screen x="0" y="27" width="1366" height="741" />
-    </state>
-    <state width="300" height="36" key="javadoc.popup.new/0.27.1366.741@0.27.1366.741" timestamp="1605805334642" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controller/CapchaController.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
