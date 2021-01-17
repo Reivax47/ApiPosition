@@ -56,7 +56,7 @@ function actualisePosition() {
     if (idInt ===0) {
         return;}
 
-    let url = "http://www.api.xav/api/parcours/" + idInt + "/positions?order%5BdatePosition%5D=desc&page=1&itemsPerPage=1";
+    let url = "http://127.0.0.1/api/parcours/" + idInt + "/positions?order%5BdatePosition%5D=desc&page=1&itemsPerPage=1";
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
 
