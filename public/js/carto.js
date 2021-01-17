@@ -110,7 +110,7 @@ function actualiseDernierParcour() {
             }
         }
     }
-    xmlhttp.open("GET", "http://www.api.xav/api/parcours?order%5Bid%5D=desc&page=1&itemsPerPage=1", true);
+    xmlhttp.open("GET", "http://127.0.0.1/api/parcours?order%5Bid%5D=desc&page=1&itemsPerPage=1", true);
     xmlhttp.send(null);
 }
 window.onload = function() {
