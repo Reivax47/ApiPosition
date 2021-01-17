@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00cf413a-db42-4e0f-bd5f-0c1107b2c81a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CapchaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CapchaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/nelmio_cors.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/nelmio_cors.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +204,7 @@
       <workItem from="1608137292715" duration="2553000" />
       <workItem from="1609705296954" duration="122000" />
       <workItem from="1610302460281" duration="357000" />
-      <workItem from="1610895014927" duration="4113000" />
+      <workItem from="1610895014927" duration="5262000" />
     </task>
     <task id="LOCAL-00001" summary="Des pitis changements">
       <created>1605734413529</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610302485984</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CV et cpcha ok">
+      <created>1610899228710</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610899228710</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +259,8 @@
     <MESSAGE value="Des pitis changements" />
     <MESSAGE value="changement du heigth dans le viewport" />
     <MESSAGE value="Carto refaire. Ajout data CV" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carto refaire. Ajout data CV" />
+    <MESSAGE value="CV et cpcha ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="CV et cpcha ok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
