@@ -1,6 +1,9 @@
 
 var lat = 45.1386;
 var lon = 1.338196;
+var precision = 2.5;
+var leclercle;
+var onField;
 var dateDernierePosition;
 var dateEnregistrement;
 var macarte = null;
@@ -68,6 +71,8 @@ function actualisePosition() {
 
             lat = laPosition["latitude"];
             lon = laPosition["longitude"];
+            precision = laPosition["accuracy"];
+            onField = laPosition["fromfield"];
 
             dateDernierePosition = laPosition["datePosition"];
             dateEnregistrement = laPosition["dateInsertion"];
@@ -82,6 +87,19 @@ function actualisePosition() {
             marker.bindTooltip(heureOnly).openTooltip();
             laDivInfo.innerText = "Heure de la position : " + heureOnly;
             laDivEnr.innerText = "Heure réception : " + HeureEnregistrement;
+
+            if (leclercle != undefined) {
+                macarte.removeLayer(leclercle);
+            }
+            let couleur = '#0366D6';
+
+            if (!onField) {
+
+                couleur ='#d60370'
+            }
+            leclercle = L.circle([lat,lon],precision, {
+                color: couleur
+            }).addTo(macarte);
 
         }
     }
