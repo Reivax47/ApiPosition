@@ -56,7 +56,7 @@ function actualisePosition() {
     if (idInt ===0) {
         return;}
 
-    let url = "http://www.api.xav/api/parcours/" + idInt + "/positions?order%5BdatePosition%5D=desc&page=1&itemsPerPage=1";
+    let url = "https://xavier-monset.fr/api/parcours/" + idInt + "/positions?order%5BdatePosition%5D=desc&page=1&itemsPerPage=1";
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function () {
 
@@ -110,7 +110,7 @@ function actualiseDernierParcour() {
             }
         }
     }
-    xmlhttp.open("GET", "http://www.api.xav/api/parcours?order%5Bid%5D=desc&page=1&itemsPerPage=1", true);
+    xmlhttp.open("GET", "https://xavier-monset.fr/api/parcours?order%5Bid%5D=desc&page=1&itemsPerPage=1", true);
     xmlhttp.send(null);
 }
 window.onload = function() {

@@ -60,6 +60,18 @@ class Position
      */
     private $parcourt;
 
+    /**
+     * @ORM\Column(type="float", nullable=true)
+     * @Groups({"Position:read", "Position:write", "Parcour:read"})
+     */
+    private $accuracy;
+
+    /**
+     * @ORM\Column(type="boolean", nullable=true)
+     * @Groups({"Position:read", "Position:write", "Parcour:read"})
+     */
+    private $fromfield;
+
     public function __construct()
     {
 
@@ -127,6 +139,30 @@ class Position
     public function setParcourt(?Parcour $parcourt): self
     {
         $this->parcourt = $parcourt;
+
+        return $this;
+    }
+
+    public function getAccuracy(): ?float
+    {
+        return $this->accuracy;
+    }
+
+    public function setAccuracy(?float $accuracy): self
+    {
+        $this->accuracy = $accuracy;
+
+        return $this;
+    }
+
+    public function getFromfield(): ?bool
+    {
+        return $this->fromfield;
+    }
+
+    public function setFromfield(?bool $fromfield): self
+    {
+        $this->fromfield = $fromfield;
 
         return $this;
     }
