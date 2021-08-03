@@ -25,6 +25,11 @@ function draw() {
     }
     layer = L.layerGroup();
     let lespositions = [];
+    parcour.positions.sort(function (a,b) {
+        let heurea = new Date(a.datePosition);
+        let heureb = new Date(b.datePosition);
+        return heurea - heureb;
+    });
     parcour.positions.forEach((pos) => {
 
         let pointA = new L.LatLng(pos.latitude, pos.longitude);

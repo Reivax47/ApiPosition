@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00cf413a-db42-4e0f-bd5f-0c1107b2c81a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer-setup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/mercure.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mercure/COPYRIGHT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mercure/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mercure/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mercure/mercure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mercure/mercure-legacy_0.11.2_Linux_x86_64.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mercure/public/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mercure/public/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mercure/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mercure/public/mercure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mercure/updates.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accueil/mars.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accueil/pluton.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/apiV2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apiV2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/monCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/monCSS.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/cartobis.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/cartobis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AccueilController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccueilController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/moncv/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/moncv/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +61,7 @@
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../test_api_prestashop" value="PREVIEW" />
+        <entry key="$USER_HOME$/test_api_prestashop" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -125,9 +147,7 @@
       <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/webimpress/safe-writer" />
-      <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
-      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
       <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
@@ -157,6 +177,14 @@
       <path value="$PROJECT_DIR$/vendor/symfony/intl" />
       <path value="$PROJECT_DIR$/vendor/symfony/config" />
       <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mercure" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mercure-bundle" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/password-hasher" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kJveJSIveaZgwzkWxMN0dUgMlO" />
@@ -173,7 +201,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../scriptOVH" />
+    <property name="last_opened_file_path" value="$USER_HOME$/scriptOVH" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -186,6 +214,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <method v="2" />
+    </configuration>
     <configuration name="127.0.0.1:8000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://127.0.0.1:8000">
       <method v="2" />
     </configuration>
@@ -314,6 +346,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

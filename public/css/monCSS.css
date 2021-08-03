@@ -23,3 +23,27 @@ div#laCarte {
 
 }
 
+div.plutontitre {
+
+    width: 100%;
+    text-align: center;
+}
+div.slide {
+
+    border: solid 2px black;
+    border-radius: 10px;
+    margin : 1em 0.5em 1em 0.5em;
+    padding: 3px;
+    min-height: 200px;
+}
+
+div.leform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px auto;
+}
