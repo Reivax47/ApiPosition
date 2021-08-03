@@ -31,9 +31,9 @@ function draw() {
         lespositions.push(pointA);
         let couleur = '#0366D6';
         if (!pos.fromfield) {
-            couleur ='#d60370'
+            couleur = '#d60370'
         }
-        let leclercle = L.circle([pos.latitude,pos.longitude],pos.accuracy, {
+        let leclercle = L.circle([pos.latitude, pos.longitude], pos.accuracy, {
             color: couleur
         }).addTo(layer);
     })
@@ -54,7 +54,7 @@ function recupparcours() {
             let index = 0;
             lesparcours.forEach((parcour) => {
                 //let unchoix = "<option value =" + parcour.id + ">" + parcour.debut + "</option>";
-                let heure =     parcour.debut.slice(parcour.debut.indexOf("T") +1
+                let heure = parcour.debut.slice(parcour.debut.indexOf("T") + 1
                     , parcour.debut.indexOf("+"));
                 let jour = parcour.debut.slice(0, parcour.debut.indexOf("T"));
                 let unchoix = "<option value =" + index + ">" + jour + " " + heure + "</option>";
