@@ -104,20 +104,11 @@
     "fig/link-util": {
         "version": "1.1.1"
     },
-    "friendsofphp/proxy-manager-lts": {
-        "version": "v1.0.3"
-    },
-    "laminas/laminas-code": {
-        "version": "3.5.0"
-    },
     "laminas/laminas-eventmanager": {
         "version": "3.3.0"
     },
     "laminas/laminas-zendframework-bridge": {
         "version": "1.1.1"
-    },
-    "lcobucci/clock": {
-        "version": "2.0.0"
     },
     "lcobucci/jwt": {
         "version": "4.1.4"
@@ -418,9 +409,6 @@
     "symfony/polyfill-mbstring": {
         "version": "v1.20.0"
     },
-    "symfony/polyfill-php73": {
-        "version": "v1.20.0"
-    },
     "symfony/polyfill-php80": {
         "version": "v1.20.0"
     },
@@ -469,9 +457,6 @@
         "version": "v5.1.8"
     },
     "symfony/security-csrf": {
-        "version": "v5.1.8"
-    },
-    "symfony/security-guard": {
         "version": "v5.1.8"
     },
     "symfony/security-http": {

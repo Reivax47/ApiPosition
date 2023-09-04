@@ -63,11 +63,7 @@ if(isset ($_POST['valider'])) {
         <div>
             <h3>Confirmation de la prise de contact</h3><br>
             <p>Bonjour ".$civilite." ".$nom.",</p>
-            <p>un email de confirmation a été envoyé a <strong>".$email."</strong>. (N'oubliez pas de vérifier dans vos spams)</p>
-            <p>Je vous répondrais aussi rapidement que possible.</p><br>
-            <p>Xavier Monset</p>
-            <br>
-            <a href=\"index.php\">Ok, merci</a>
+            <p>un email de confirmation a été envoyé a <strong>".$email. ">Ok, merci</a>
         </div>
     </body>
     </html>";
