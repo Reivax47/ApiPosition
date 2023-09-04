@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00cf413a-db42-4e0f-bd5f-0c1107b2c81a" name="Default Changelist" comment="améliaration projet. update symfony">
-      <change afterPath="$PROJECT_DIR$/public/img/Philips_PM5544.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/apiV2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apiV2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="00cf413a-db42-4e0f-bd5f-0c1107b2c81a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/xavier.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/xavier.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accueil/mars.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accueil/mars.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accueil/pluton.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accueil/pluton.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moncv/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/moncv/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AccueilController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccueilController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CapchaController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CgvController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accueil/mars.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accueil/pluton.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/capcha/index.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,9 +173,9 @@
       <path value="$PROJECT_DIR$/vendor/psr/clock" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="1kJveJSIveaZgwzkWxMN0dUgMlO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -249,7 +246,8 @@
       <workItem from="1627982747298" duration="506000" />
       <workItem from="1627983286250" duration="492000" />
       <workItem from="1693752873125" duration="2525000" />
-      <workItem from="1693755535415" duration="1106000" />
+      <workItem from="1693755535415" duration="2385000" />
+      <workItem from="1693828433281" duration="994000" />
     </task>
     <task id="LOCAL-00001" summary="Des pitis changements">
       <created>1605734413529</created>
@@ -342,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1627985712599</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="suppression du CV">
+      <option name="closed" value="true" />
+      <created>1693756695642</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1693756695642</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +376,8 @@
     <MESSAGE value="avec nom de domaine" />
     <MESSAGE value="page parcours" />
     <MESSAGE value="améliaration projet. update symfony" />
-    <option name="LAST_COMMIT_MESSAGE" value="améliaration projet. update symfony" />
+    <MESSAGE value="suppression du CV" />
+    <option name="LAST_COMMIT_MESSAGE" value="suppression du CV" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

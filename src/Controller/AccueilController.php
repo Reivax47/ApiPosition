@@ -21,43 +21,5 @@ class AccueilController extends AbstractController
         ]);
     }
 
-    /**
-     * @Route("/pluton", name="pluton")
-     */
-    public function pluton(): Response
-    {
-        return $this->render('accueil/pluton.html.twig', [
-            'controller_name' => 'AccueilController',
-        ]);
-    }
-    /**
-     * @Route("/mars", name="mars")
-     */
-    public function mars(): Response
-    {
-        return $this->render('accueil/mars.html.twig', [
-            'controller_name' => 'AccueilController',
-        ]);
-    }
 
-
-    /**
-     * @Route("/senit", name="senit", methods={"POST"})
-     */
-    public function senit(HubInterface $publisher): Response
-    {
-        if( $_POST['num']) {
-
-
-            $valeur = $_POST['num'];
-
-            $update = new Update("http://127.0.0.1:8001/ping",json_encode([$valeur]));
-            $publisher->publish($update);
-        }
-
-
-        return $this->render('accueil/mars.html.twig', [
-            'controller_name' => 'AccueilController',
-        ]);
-    }
 }
